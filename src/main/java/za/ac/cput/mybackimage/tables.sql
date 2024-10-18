@@ -4,8 +4,8 @@ CREATE TABLE CarVotes (
     votes INT
 );
 
-INSERT INTO cars (car_name) VALUES ('Rolls Royce Ghost');
-INSERT INTO cars (car_name) VALUES ('BMW i7 xDrive60');
-INSERT INTO cars (car_name) VALUES ('Mercedis AMG G63S');
-INSERT INTO cars (car_name) VALUES ('Bentley Continental GT');
-INSERT INTO cars (car_name) VALUES ('Audi Q8');
+INSERT INTO carvotes (carname) VALUES ('Rolls Royce Ghost');
+INSERT INTO carvotes (carname) VALUES ('BMW i7 xDrive60');
+INSERT INTO carvotes (carname) VALUES ('Mercedis AMG G63S');
+INSERT INTO carvotes (carname) VALUES ('Bentley Continental GT');
+INSERT INTO carvotes (carname) VALUES ('Audi Q8');

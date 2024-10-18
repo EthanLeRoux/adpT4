@@ -20,7 +20,7 @@ public class ClientSide {
     public ClientSide() {
         //establish connection to server
         try {
-            clientSocket = new Socket("192.168.102.177", 6666);
+            clientSocket = new Socket("localhost", 6666);
         } catch (IOException ioe) {
             System.out.println("IOException: " + ioe.getMessage());
         }

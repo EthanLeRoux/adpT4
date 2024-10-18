@@ -8,7 +8,7 @@ import java.awt.event.*;
  *
  * @author Esihle
  */
-public class guiImage extends JFrame {
+public class LetsGoScreen extends JFrame {
 
     private JPanel pnlImage = new JPanel() {
         private Image backImage = new ImageIcon("RRE.jpg").getImage();
@@ -23,7 +23,7 @@ public class guiImage extends JFrame {
     private JLabel lblSlogan = new JLabel("Got everything set? Ready to vote for top luxury Car?");
     private JButton btnGo = new JButton("LETS GO");
 
-    public guiImage() {
+    public LetsGoScreen() {
         super("Luxury Vote");
     
         lblImage.setIcon(new ImageIcon("Legends.png"));
@@ -43,7 +43,7 @@ public class guiImage extends JFrame {
 
         btnGo.addActionListener((ActionEvent e) -> {
             if (e.getSource() == btnGo) {
-                myVote vote = new myVote();
+                VoteScreen vote = new VoteScreen();
                 vote.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                 vote.setSize(1040, 800);
                 vote.setVisible(true);

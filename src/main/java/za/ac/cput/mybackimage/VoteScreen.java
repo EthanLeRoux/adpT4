@@ -13,8 +13,8 @@ import za.ac.cput.Domain.CarVote;
  *
  * @author Esihle Mlinjana (222441712)
  */
-public class myVote extends JFrame {
-
+public class VoteScreen extends JFrame {
+    ClientSide cs;
     private JPanel pnlFront = new JPanel() {
         private Image backImage = new ImageIcon("FM.png").getImage();
 
@@ -40,9 +40,11 @@ public class myVote extends JFrame {
     CarDAO dao = new CarDAO();
     CarVote car;
 
-    public myVote() {
+    public VoteScreen() {
         super("Luxury Vote");
-
+        cs = new ClientSide();
+        cs.getStreams();
+        
         lblCar.setBounds(400, 50, 300, 200);
         lblCar.setFont(new Font("Serif", Font.BOLD, 30));
         lblCar.setForeground(Color.WHITE);

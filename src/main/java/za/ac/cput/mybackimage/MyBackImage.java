@@ -9,8 +9,7 @@ import javax.swing.*;
 public class MyBackImage {
 
     public static void main(String[] args) {
-
-        guiImage gui = new guiImage();
+        LetsGoScreen gui = new LetsGoScreen();
 
         gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gui.setSize(1040, 800);
