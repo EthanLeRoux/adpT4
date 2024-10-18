@@ -11,7 +11,7 @@ import java.sql.SQLException;
  */
 public class DBConnect {
     
-     public static Connection derbyConnection()throws SQLException{
+     public Connection derbyConnection()throws SQLException{
         String db_URL = "jdbc:derby://localhost:1527/CarVote";
         String Username = "administrator";
         String Password = "admin";
