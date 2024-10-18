@@ -14,8 +14,7 @@ public class MyBackImage {
 
         gui.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         gui.setSize(1040, 800);
-        gui.setVisible(true);
-      
+        gui.setVisible(true);  
     }
     
 }
